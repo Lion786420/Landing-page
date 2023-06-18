@@ -38,7 +38,7 @@ body{
     padding:50px ;
 }
 img{
-    height: 150px;
+    height: 180px;
     width: auto;
 }
 .awe{
@@ -70,7 +70,8 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:10px
+    gap:10px;
+    margin:25px
 }
 .some{
     font-size: 25px;
@@ -101,7 +102,7 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 40px;
 }
 .q{
     font-size: 25px;
@@ -112,4 +113,49 @@ img{
     width: 50%;
     text-align: end;
     font-weight: bold;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+}
+
+.copy{
+    background-color: #1F2937;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 15px;
+    padding: 12px;
+}
+.blue{
+    width: 70%;
+    background-color: #3882F6;
+    padding: 25px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+}
+.call{
+    font-weight: bold;
+    font-size: 18px;
+}
+.action{
+    flex: 3;
+}
+.up{
+    width: 100px;
+    border: 2px solid;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    font-size: 15px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+.foot{
+    font-size: 13px;
 }
