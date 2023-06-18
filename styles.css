@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Roboto,'Times New Roman',sans-serif;
+}
+body{
+    height: 100vh;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    background-color:#1F2937 ;
+    align-items: center;
+    padding: 15px;
+    margin: 0px;
+    justify-content: center;
+}
+.header>div{
+    flex:1;
+    text-align: center;
+    color: #F9FAF8;
+}
+.links{
+    display: flex;
+    gap:10px;justify-content: center;
+}
+.logo{
+    font-size: 24px;
+}
+.awesome{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding:50px ;
+}
+img{
+    height: 150px;
+    width: auto;
+}
+.awe{
+    display:flex ;
+    flex-direction: column;
+    height: 150px;
+    width:300px;
+    gap:5px;
+    
+}
+.miz{
+    font-size: 35px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.mizinfo{
+    color: white;
+}
+.sign{
+    width: 100px;
+    background-color:#3882F6;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.info{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.some{
+    font-size: 25px;
+    font-weight: bold;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+}
+.boxinfo{
+    text-align: center;
+}
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.q{
+    font-size: 25px;
+    font-style: italic;
+    width: 50%;
+}
+.author{
+    width: 50%;
+    text-align: end;
+    font-weight: bold;
+}
